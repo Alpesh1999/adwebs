@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #030812;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+
+/* Heading style start */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 142px;
+}
+.logo-box .logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  color: #fc4f4f;
+}
+.logo-box .logo > span {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.header .menu-box ul {
+  display: flex;
+}
+.header .menu-box ul li {
+  margin-right: 42px;
+}
+.header .menu-box ul li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.signup-box .signup-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fc4f4f;
+  border: 2px solid #fc4f4f;
+  border-radius: 10px;
+  padding: 10px 45px;
+}
+
+/* Heading style end */
+
+/* Explore sec start */
+
+.explore-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.explore-sec .exp-text {
+  max-width: 50%;
+}
+.explore-sec .exp-img-box {
+  max-width: 50%;
+}
+.explore-sec .exp-text .exp-h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+
+  background: linear-gradient(
+    94.62deg,
+    rgba(255, 255, 255, 0.5) -3.54%,
+    #ffffff 26.28%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.explore-sec .exp-text .exp-cl {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #fc4f4f;
+  margin-left: 10px;
+}
+.explore-sec .exp-text .one-line {
+  display: flex;
+}
+.explore-sec .exp-text .cont {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b2b2b2;
+  margin-top: 20px;
+}
+.exp-btn-box {
+  margin-top: 30px;
+}
+.exp-btn-box .exp-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #070c0e;
+  background: linear-gradient(234.84deg, #fdae8f 15.44%, #fd1c68 85.65%);
+  border-radius: 10px;
+  padding: 10px 28px;
+}
+.exp-btn-box .more-btn {
+  margin-left: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px 35px 10px 59px;
+  position: relative;
+}
+.exp-btn-box .more-btn::before {
+  content: url(/static/images/play-btn2.png);
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 17px;
+}
+.exp-btn-box .more-btn::after {
+  content: url(/static/images/right-icon2.png);
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 155px;
+}
+
+.explore-sec .exp-img-box img {
+  width: 100%;
+}
+
+/* Explore sec end */
+
+/* Category sec start */
+
+.category-sec {
+  margin-top: 102px;
+  margin-bottom: 102px;
+}
+.category-sec .cat-hd {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.category-sec .cat-hd span {
+  background: linear-gradient(
+    92.68deg,
+    #fc4f4f 52.48%,
+    rgba(255, 120, 120, 0.8) 117.31%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.category-sec .icon-main-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 79px 148px 105px 133px;
+}
+.icon-main-box .icon-top-box{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 146px;
+}
+.icon-main-box .icon-bottom-box{
+  display: flex;
+  justify-content: space-between;
+}
+.icon-main-box .icon-box {
+  display: grid;
+  justify-items: center;
+  justify-content: start;
+}
+.icon-main-box .icon-box .icon-img {
+  width: 27px;
+  background: #fc4f4f;
+  border-radius: 10px;
+  padding: 18px;
+}
+.icon-main-box .icon-box .icon-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #c1c1c1;
+  margin-top: 15px;
+}
+/* Category sec end */
