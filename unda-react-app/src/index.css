@@ -168,7 +168,7 @@ ul li {
 }
 
 .exp-btn-box .more-btn::before {
-  content: url(/static/images/play-btn2.png);
+  content: url(../src/static/images/play-btn2.png);
   position: absolute;
   width: 27px;
   height: 27px;
@@ -176,7 +176,7 @@ ul li {
 }
 
 .exp-btn-box .more-btn::after {
-  content: url(/static/images/right-icon2.png);
+  content: url(../src/static/images/right-icon2.png);
   position: absolute;
   width: 27px;
   height: 27px;
@@ -243,16 +243,16 @@ ul li {
   border-radius: 10px;
   padding: 18px;
 }
-.icon-main-box .games-box {
+.icon-main-box .games-box{
   background: linear-gradient(90.54deg, #FF7070 -38.38%, #FC4F4F 49.51%, #FF7070 135.35%);
   padding: 79px 73px;
   margin-top: -110px;
 }
-
-.icon-main-box .icon-box .games-icon {
+.icon-main-box .icon-box .games-icon{
   background: #13181A;
-
+  
 }
+
 .icon-main-box .icon-box .icon-text {
   font-weight: 400;
   font-size: 16px;
@@ -262,100 +262,3 @@ ul li {
 }
 
 /* Category sec end */
-
-
-
-/* Sign-up start */
-
-
-.popup{
-  background: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-.popup-content{
-  width: 900px;
-  height: 700px;
-  background-color: #525461;
-  border-radius: 5px;
-  position: relative;
-}
-.popup-box{
-  width: 75%;
-  height: 75%;
-  padding: 40px;
-  background-image: linear-gradient(90deg, rgba(40, 42, 55, 1), rgba(40, 42, 55, 0.6)), url('../images/signup-img.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin: 5% auto;
-  border-radius: 20px;
-  box-shadow: 8px 8px 28px -8px rgba(0, 0, 0, 0.75);
-}
-.popup-hd{
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-}
-.close{
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  cursor: pointer;
-}
-.input-box {
-  width: 50%;
-}
-.your-name{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-input{
-  margin-top: 30px;
-  padding: 20px;
-  border-radius: 20px;
-  background-color: #323645;
-  border: none;
-  color: #fff;
-  font-size: 18px;
-}
-input::placeholder{
-  color: #fff;
-}
-#f-name{
-  width: 48%;
-  margin-right: 4%;
-}
-#l-name {
-  width: 48%;
-}
-
-.input-box #email, #pass{
-  width: 90%;
-}
-.create-ac{
-  margin-top: 50px;
-  text-align: center;
-}
-.account-btn{
-  padding: 20px 40px;
-  background-color: #000;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 20px;
-}
-.account-btn:hover {
-  background-color: #fff;
-  color: #000;
-  transition: 0.5s ease-in-out;
-}
-
-/* Sign-up end */

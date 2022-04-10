@@ -25,7 +25,7 @@
                     </ul>
                 </div>
                 <div class="signup-box">
-                    <a class="signup-btn" href="#">Sign Up</a>
+                    <a class="signup-btn" id="signup" href="#">Sign Up</a>
                 </div>
             </div>
         </nav>
@@ -40,7 +40,7 @@
                     <h2 class="exp-cl">metaverse</h2>
                 </div>
                 <h2 class="exp-h2"> world.</h2>
-        
+
                 <p class="cont">Ruang 3D di metaverse untuk bersosialisasi, belajar, kolaborasi,
                     dan bermain melampaui apa yang bisa kita bayangkan.
                     The Metaverse is the next evolution of social connection.</p>
@@ -49,7 +49,7 @@
                     <a class="more-btn" href="#">Learn more</a>
                 </div>
             </div>
-        
+
             <div class="exp-img-box">
                 <img src="static/images/exp-img.png" alt="">
             </div>
@@ -61,7 +61,7 @@
 
         <section class="category-sec">
             <h4 class="cat-hd text-center">Temukan semua yang<br>
-            bisa dilakukan di <span>metaverse</span></h4>
+                bisa dilakukan di <span>metaverse</span></h4>
 
             <div class="icon-main-box">
                 <div class="icon-top-box">
@@ -70,43 +70,80 @@
                         <p class="icon-text">Komersial</p>
                     </div>
                     <div class="icon-box">
-                        <img src="static/images/home.png" alt="" class="icon-img">
-                        <p class="icon-text">Komersial</p>
+                        <img src="static/images/ball.png" alt="" class="icon-img">
+                        <p class="icon-text">Ball</p>
+                    </div>
+                    <div class="icon-box games-box">
+                        <img src="static/images/games.png" alt="" class="icon-img games-icon">
+                        <p class="icon-text">Games</p>
                     </div>
                     <div class="icon-box">
-                        <img src="static/images/home.png" alt="" class="icon-img">
-                        <p class="icon-text">Komersial</p>
-                    </div>
-                    <div class="icon-box">
-                        <img src="static/images/home.png" alt="" class="icon-img">
-                        <p class="icon-text">Komersial</p>
+                        <img src="static/images/book.png" alt="" class="icon-img">
+                        <p class="icon-text">Book</p>
                     </div>
                 </div>
 
                 <div class="icon-bottom-box">
                     <div class="icon-box">
-                        <img src="static/images/home.png" alt="" class="icon-img">
-                        <p class="icon-text">Komersial</p>
+                        <img src="static/images/buisness.png" alt="" class="icon-img">
+                        <p class="icon-text">Buisness</p>
                     </div>
                     <div class="icon-box">
-                        <img src="static/images/home.png" alt="" class="icon-img">
-                        <p class="icon-text">Komersial</p>
+                        <img src="static/images/control.png" alt="" class="icon-img">
+                        <p class="icon-text">Control</p>
                     </div>
                     <div class="icon-box">
-                        <img src="static/images/home.png" alt="" class="icon-img">
-                        <p class="icon-text">Komersial</p>
+                        <img src="static/images/entertainment.png" alt="" class="icon-img">
+                        <p class="icon-text">Entertainment</p>
                     </div>
                     <div class="icon-box">
-                        <img src="static/images/home.png" alt="" class="icon-img">
-                        <p class="icon-text">Komersial</p>
+                        <img src="static/images/social.png" alt="" class="icon-img">
+                        <p class="icon-text">Social</p>
                     </div>
                 </div>
-                
+
             </div>
         </section>
 
         <!-- Category section end -->
     </div>
+
+
+
+
+    <div class="popup">
+        <div class="popup-content">
+            <div class="popup-box">
+                <img src="static/images/close.png" alt="close" class="close">
+                <div class="input-box">
+                    <p class="popup-hd">Create new Account</p>
+                    <div class="your-name">
+                        <input type="text" placeholder="First Name" id="f-name">
+                        <input type="text" placeholder="Last Name" id="l-name">
+                    </div>
+                    <input type="mail" name="email" id="email" placeholder="Your Email">
+                    <input type="password" name="password" id="pass" placeholder="Enter password">
+                    <div class="create-ac">
+                        <a href="" class="account-btn">Create account</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+    <script>
+        document.getElementById("signup").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "flex";
+        })
+        document.querySelector(".close").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "none";
+        })
+    </script>
 </body>
 
 </html>

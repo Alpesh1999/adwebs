@@ -7,7 +7,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #030812;
 }
-
 h1,
 h2,
 h3,
@@ -19,20 +18,16 @@ p {
   margin: 0;
   padding: 0;
 }
-
 a {
   text-decoration: none;
 }
-
 ul li {
   list-style: none;
 }
-
 .container {
   width: 1170px;
   margin: 0 auto;
 }
-
 .text-center {
   text-align: center;
 }
@@ -45,30 +40,25 @@ ul li {
   margin-top: 45px;
   margin-bottom: 142px;
 }
-
 .logo-box .logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 39px;
   color: #fc4f4f;
 }
-
-.logo-box .logo>span {
+.logo-box .logo > span {
   font-family: "Righteous", cursive;
   font-weight: 400;
   font-size: 26px;
   line-height: 32px;
   color: #ffffff;
 }
-
 .header .menu-box ul {
   display: flex;
 }
-
 .header .menu-box ul li {
   margin-right: 42px;
 }
-
 .header .menu-box ul li a {
   font-style: normal;
   font-weight: 500;
@@ -76,7 +66,6 @@ ul li {
   line-height: 24px;
   color: #ffffff;
 }
-
 .signup-box .signup-btn {
   font-weight: 500;
   font-size: 16px;
@@ -97,28 +86,26 @@ ul li {
   align-items: center;
   width: 100%;
 }
-
 .explore-sec .exp-text {
   max-width: 50%;
 }
-
 .explore-sec .exp-img-box {
   max-width: 50%;
 }
-
 .explore-sec .exp-text .exp-h2 {
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
 
-  background: linear-gradient(94.62deg,
-      rgba(255, 255, 255, 0.5) -3.54%,
-      #ffffff 26.28%);
+  background: linear-gradient(
+    94.62deg,
+    rgba(255, 255, 255, 0.5) -3.54%,
+    #ffffff 26.28%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
 .explore-sec .exp-text .exp-cl {
   font-weight: 700;
   font-size: 48px;
@@ -126,11 +113,9 @@ ul li {
   color: #fc4f4f;
   margin-left: 10px;
 }
-
 .explore-sec .exp-text .one-line {
   display: flex;
 }
-
 .explore-sec .exp-text .cont {
   font-weight: 300;
   font-size: 16px;
@@ -138,11 +123,9 @@ ul li {
   color: #b2b2b2;
   margin-top: 20px;
 }
-
 .exp-btn-box {
   margin-top: 30px;
 }
-
 .exp-btn-box .exp-btn {
   font-weight: 500;
   font-size: 16px;
@@ -153,7 +136,6 @@ ul li {
   border-radius: 10px;
   padding: 10px 28px;
 }
-
 .exp-btn-box .more-btn {
   margin-left: 40px;
   font-weight: 300;
@@ -166,7 +148,6 @@ ul li {
   padding: 10px 35px 10px 59px;
   position: relative;
 }
-
 .exp-btn-box .more-btn::before {
   content: url(/static/images/play-btn2.png);
   position: absolute;
@@ -174,7 +155,6 @@ ul li {
   height: 27px;
   left: 17px;
 }
-
 .exp-btn-box .more-btn::after {
   content: url(/static/images/right-icon2.png);
   position: absolute;
@@ -195,7 +175,6 @@ ul li {
   margin-top: 102px;
   margin-bottom: 102px;
 }
-
 .category-sec .cat-hd {
   font-weight: 600;
   font-size: 32px;
@@ -203,55 +182,41 @@ ul li {
   color: #ffffff;
   margin-bottom: 60px;
 }
-
 .category-sec .cat-hd span {
-  background: linear-gradient(92.68deg,
-      #fc4f4f 52.48%,
-      rgba(255, 120, 120, 0.8) 117.31%);
+  background: linear-gradient(
+    92.68deg,
+    #fc4f4f 52.48%,
+    rgba(255, 120, 120, 0.8) 117.31%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
 .category-sec .icon-main-box {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   padding: 79px 148px 105px 133px;
 }
-
-.icon-main-box .icon-top-box {
+.icon-main-box .icon-top-box{
   display: flex;
   justify-content: space-between;
   margin-bottom: 146px;
 }
-
-.icon-main-box .icon-bottom-box {
+.icon-main-box .icon-bottom-box{
   display: flex;
   justify-content: space-between;
 }
-
 .icon-main-box .icon-box {
   display: grid;
   justify-items: center;
   justify-content: start;
 }
-
 .icon-main-box .icon-box .icon-img {
   width: 27px;
   background: #fc4f4f;
   border-radius: 10px;
   padding: 18px;
-}
-.icon-main-box .games-box {
-  background: linear-gradient(90.54deg, #FF7070 -38.38%, #FC4F4F 49.51%, #FF7070 135.35%);
-  padding: 79px 73px;
-  margin-top: -110px;
-}
-
-.icon-main-box .icon-box .games-icon {
-  background: #13181A;
-
 }
 .icon-main-box .icon-box .icon-text {
   font-weight: 400;
@@ -260,102 +225,4 @@ ul li {
   color: #c1c1c1;
   margin-top: 15px;
 }
-
 /* Category sec end */
-
-
-
-/* Sign-up start */
-
-
-.popup{
-  background: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-.popup-content{
-  width: 900px;
-  height: 700px;
-  background-color: #525461;
-  border-radius: 5px;
-  position: relative;
-}
-.popup-box{
-  width: 75%;
-  height: 75%;
-  padding: 40px;
-  background-image: linear-gradient(90deg, rgba(40, 42, 55, 1), rgba(40, 42, 55, 0.6)), url('../images/signup-img.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin: 5% auto;
-  border-radius: 20px;
-  box-shadow: 8px 8px 28px -8px rgba(0, 0, 0, 0.75);
-}
-.popup-hd{
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-}
-.close{
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  cursor: pointer;
-}
-.input-box {
-  width: 50%;
-}
-.your-name{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-input{
-  margin-top: 30px;
-  padding: 20px;
-  border-radius: 20px;
-  background-color: #323645;
-  border: none;
-  color: #fff;
-  font-size: 18px;
-}
-input::placeholder{
-  color: #fff;
-}
-#f-name{
-  width: 48%;
-  margin-right: 4%;
-}
-#l-name {
-  width: 48%;
-}
-
-.input-box #email, #pass{
-  width: 90%;
-}
-.create-ac{
-  margin-top: 50px;
-  text-align: center;
-}
-.account-btn{
-  padding: 20px 40px;
-  background-color: #000;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 20px;
-}
-.account-btn:hover {
-  background-color: #fff;
-  color: #000;
-  transition: 0.5s ease-in-out;
-}
-
-/* Sign-up end */
